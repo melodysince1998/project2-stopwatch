@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Roboto:wght@100&display=swap');
+
+
+*,
+*:before,
+*:after{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+
+body{
+background-image: url(kake4.gif);
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+opacity: 0.9;
+font-family: 'Dancing Script', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Roboto', sans-serif;
+}
+.container{
+background-color: #030303;
+width: 70%;
+min-width: 700px;
+position: absolute;
+transform: translate(-50%,-50%);
+top: 50%;
+left: 50%;
+padding: 17px 0;
+padding-bottom: 17px;
+border-radius: 30px;
+}
+.timerDisplay{
+position: relative;
+width: 92%;
+background: #857c7c;
+left: 4%;
+padding: 10px 0;
+font-family: 'Indie Flower', cursive;
+color: #4e0000;
+font-size: 75px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+border-radius: 5px;
+box-shadow: 0 0 20px rgba(221, 182, 8, 0.548);
+}
+.back{
+background: url(kake4.gif);    
+}
+.buttons{
+width: 90%;
+margin: 60px auto 0 auto;
+display: flex;
+justify-content: space-around;
+}
+.buttons button{
+width: 170px;
+height: 45px;
+background-color:#4e0000 ;
+color: #ffffff;
+border: none;
+font-family: 'Indie Flower', cursive;
+font-size: 30px;
+border-radius: 50%;
+outline: none;
+}
+.buttons button:nth-last-child(2){
+background-color: #a8a8a8;
+}
+.buttons button:nth-last-child(1){
+background-color: #9c6d07;
+}
